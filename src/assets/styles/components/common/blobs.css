@@ -1,0 +1,15 @@
+.blob {
+    width: 300px;
+    height: 300px;
+    background-color: #3b82f6;
+    clip-path: polygon(
+      50% 0%,
+      100% 50%,
+      50% 100%,
+      0% 50%,
+      50% 30%,
+      30% 50%,
+      50% 70%,
+      70% 50%
+    );
+  }
