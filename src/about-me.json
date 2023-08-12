@@ -1,7 +1,14 @@
 {
     "name": "Kyaw Lwin Soe",
     "title": "Flutter Mobile Developer",
+    "birthday": "2002/05/27",
     "description": "I am a passionate Flutter mobile developer with expertise in building fully functional mobile applications...",
     "skills": ["Flutter", "Firebase", ".NET"],
-    "profile_photo" : "../../assets/images/myself.jpg"
+    "profile_photo" : "../../assets/images/myself.jpg",
+    "my_major" : "International Relations",
+    "my_university" : "Dagon University",
+    "my_training_school" : ["MMSIT","PADC","Udemy","Khan Academy"],
+    "job_position" : "Developer",
+    "working_company" : "Global Wave Technology",
+    "hobbies" : ["Coding Challenges","Open Source Contribution","Continuous Learning","Side Projects","Problem Solving"]
 }
