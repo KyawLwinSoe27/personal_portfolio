@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutMeData from "../about-me.json";
 import projects from "../projects.json";
 const PortfolioPage = () => {
   return (
