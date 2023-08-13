@@ -48,3 +48,11 @@ Pale Blue: #ECEFF1
 Deep Blue: #1976D2
 Dark Gray: #333333
 Rich Purple: #673AB7
+
+
+/// image hosting url
+https://kyawlwinsoe.imgur.com/all
+
+/// deploy in firebase 
+/// command
+firebase deploy

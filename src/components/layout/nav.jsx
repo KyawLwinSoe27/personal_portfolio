@@ -15,7 +15,7 @@ const Nav = () => {
         { name: 'Home', href: "#", current: currentTab === 'Home' },
         { name: 'About', href: "#about", current: currentTab === 'About' },
         { name: 'Portfolio', href: "#portfolio", current: currentTab === 'Portfolio' },
-        { name: 'Contact', href: '#', current: currentTab === 'Contact' },
+        { name: 'Contact', href: '#contact', current: currentTab === 'Contact' },
       ];
 
     

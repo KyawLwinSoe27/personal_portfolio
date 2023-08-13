@@ -8,8 +8,11 @@ const RowLayoutHeroSection = ({ aboutMeData }) => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-center h-5/6">
             <div className="md:w-1/2 flex items-center justify-center">
-                <p className='w-96 text-center'>Hello there! I'm {name}, a passionate {title} with expertise in building fully functional mobile applications. With a strong background in mobile app development, I specialize in creating elegant and user-friendly experiences for both iOS and Android platforms.</p>
-                <Blob1 />
+            <div>
+            <p className='mb-5 text-xl'>Hello there! I'm {name} </p>
+            <p className='w-96 text-justify indent-10'>a passionate {title} with expertise in building fully functional mobile applications. With a strong background in mobile app development, I specialize in creating elegant and user-friendly experiences for both iOS and Android platforms.</p>
+            </div>
+            <Blob1 />
             </div>
             <div className="md:w-1/2 flex items-center justify-center">
                 <img src={MyPhoto} alt="Image Description" className="rounded-full w-72 h-72" />
