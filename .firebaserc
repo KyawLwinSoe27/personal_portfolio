@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "kyawlwinsoe2023-e7fab"
-  }
+    "default": "kyawlwinsoe2023-c23ab",
+    "staging": "kyawlwinsoe2023-c23ab"
+  },
+  "targets": {},
+  "etags": {}
 }
