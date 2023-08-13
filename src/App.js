@@ -4,6 +4,8 @@ import AboutPage from './pages/about_page'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import PortfolioPage from './pages/portfolio_page';
 import Nav from './components/layout/Nav.jsx';
+import ContactPage from './pages/contact_me_page';
+import Footer from './pages/footer_page';
 
 const App = () => {
   return (
@@ -12,6 +14,7 @@ const App = () => {
       <HomePage />
       <AboutPage />
       <PortfolioPage />
+      <ContactPage />
     </Router>
   )
 }

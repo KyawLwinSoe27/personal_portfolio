@@ -10,13 +10,13 @@ const AboutPage = () => {
   const commaSeparatedString = my_training_school.join(', ');
   const hobbiesString = hobbies.join(', ');
   return (
-    <section className="h-screen bg-white" id="about">
-      <div className="flex items-center justify-center pt-40">
+    <section className="h-min-screen bg-white" id="about">
+      <div className="flex items-center justify-center pt-40 pb-20 flex-col md:flex-row">
         <div className="w-2/4 flex flex-col justify-center items-center space-y-6">
           <img src={MyPhoto} alt="Image Description" className="rounded-full w-72 h-72" />
         </div>
-        <div className="w-2/4">
-          <div className="w-3/4">
+        <div className="w-full md:w-2/4">
+          <div className="w-full md:w-3/4">
             <h2 className="text-xl font-semibold">About Me</h2>
             <p className="text-gray-600 text-sm indent-10 text-justify my-5">
               I am {name}, a passionate {age}-year-old professional dedicated to constant growth in the technology field. I hold a background in {my_major} from {my_university}. While initially pursuing this major, my journey has led me to transition my focus toward technology. I further honed my skills at {commaSeparatedString}, where I thrived in real-world projects, enhancing my technical prowess and collaborative aptitude.
@@ -25,7 +25,7 @@ const AboutPage = () => {
 
               Looking ahead, my ambition is to continually challenge boundaries. The allure of impactful projects drives me, backed by a strong educational foundation, unquenchable curiosity, and genuine technology enthusiasm. I am poised to embrace new opportunities, leaving an indelible mark on the realm of innovation.
             </p>
-            <div className="flex justify-between">
+            <div className="flex justify-between flex-col md:flex-row">
               <div>
                 <p className="text-gray-600 text-sm">
                   Email:{" "}

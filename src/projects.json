@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "photoUrl": "https://i.imgur.com/1jC5Hka.png",
+    "title": "Movie Booking App",
+    "description": "A sample is a smaller set of data that a researcher chooses or selects from a larger population using a pre-defined selection method. These elements are known as sample points, sampling units, or observations."
+  },
+  {
+    "id": 2,
+    "photoUrl": "https://i.imgur.com/LPnVTEP.png",
+    "title": "M4U App",
+    "description": "A sample is a smaller set of data that a researcher chooses or selects from a larger population using a pre-defined selection method. These elements are known as sample points, sampling units, or observations."
+  },
+  {
+    "id": 3,
+    "photoUrl": "https://i.imgur.com/KoohCVf.png",
+    "title": "Shop Manager App",
+    "description": "A sample is a smaller set of data that a researcher chooses or selects from a larger population using a pre-defined selection method. These elements are known as sample points, sampling units, or observations."
+  },
+  {
+    "id": 4,
+    "photoUrl": "https://i.imgur.com/nTiuYFX.png",
+    "title": "Sample Project",
+    "description": "A sample is a smaller set of data that a researcher chooses or selects from a larger population using a pre-defined selection method. These elements are known as sample points, sampling units, or observations."
+  }
+]
