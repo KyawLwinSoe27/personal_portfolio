@@ -4,7 +4,7 @@ import Blob1 from '../common/Blob1';
 import Blob2 from '../common/Blob2';
 
 const RowLayoutHeroSection = ({ aboutMeData }) => {
-    const { name, title, description, skills, profile_photo } = aboutMeData;
+    const { name, title} = aboutMeData;
     return (
         <div className="flex flex-col md:flex-row items-center justify-center h-5/6">
             <div className="md:w-1/2 flex items-center justify-center">
@@ -15,7 +15,7 @@ const RowLayoutHeroSection = ({ aboutMeData }) => {
             <Blob1 />
             </div>
             <div className="md:w-1/2 flex items-center justify-center">
-                <img src={MyPhoto} alt="Image Description" className="rounded-full w-72 h-72" />
+                <img src={MyPhoto} className="rounded-full w-72 h-72" />
                 <Blob2 />
                 </div>
         </div>

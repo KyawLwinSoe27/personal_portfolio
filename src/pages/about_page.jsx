@@ -13,7 +13,7 @@ const AboutPage = () => {
     <section className="h-min-screen bg-white" id="about">
       <div className="flex items-center justify-center pt-40 pb-20 flex-col md:flex-row">
         <div className="w-2/4 flex flex-col justify-center items-center space-y-6">
-          <img src={MyPhoto} alt="Image Description" className="rounded-full w-72 h-72" />
+          <img src={MyPhoto} className="rounded-full w-72 h-72" />
         </div>
         <div className="w-full md:w-2/4">
           <div className="w-full md:w-3/4">
